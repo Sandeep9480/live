@@ -1,0 +1,83 @@
+/* General styles */
+.live-preview {
+    position: absolute;
+    top: 20px;
+}
+
+.live-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.indicator-dot {
+    height: 5px;
+    width: 5px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+/* Chat preview styles */
+.chat-preview {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.close-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.chat-body {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.chat-footer {
+    width: 100%;
+    height: 40px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly !important;
+    padding: 0 5px;
+    font-size: 14px;
+    gap: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.mic-icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+/* Launcher styles */
+.chat-launcher {
+    position: absolute;
+    bottom: 250px;
+    right: 420px;
+    cursor: pointer;
+}
+
+.chat-launcher img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
